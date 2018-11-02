@@ -2,15 +2,15 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
 	xmlns:android="http://schemas.android.com/apk/res/android"
-	id="com.pylonproducts.wifiwizard"
+	id="cordova-plugin-wifi-wizard"
 	version="0.2.12">
 
     <name>WifiWizard</name>
-    <description>This plugin allows Phonegap applications to manage Wifi connections.</description>
-	<author>Matt Parsons</author>
-	<keywords>phonegap,network,wifi</keywords>
+    <description>This plugin allows Cordova applications to manage Wifi connections.</description>
+  	<author>Matt Parsons</author>
+  	<keywords>cordova,network,wifi</keywords>
     <license>Apache 2.0</license>
-	<repo>https://github.com/parsonsmatt/WifiWizard/</repo>
+  	<repo>https://github.com/adnotam/WifiWizard/</repo>
 
     <js-module src="www/WifiWizard.js" name="WifiWizard">
     	<clobbers target="window.WifiWizard"/>

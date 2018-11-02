@@ -10,7 +10,7 @@ Updated permissions for Android Marshmallow.
 
 Version 0.2.9
 
-This Phonegap plugin enables WiFi management from within Phonegap applications.
+This Cordova plugin enables WiFi management from within Cordova applications.
 
 iOS has limited functionality, as Apple's WifiManager equivalent is only available as a private API. Any app that used these features would not be allowed on the app store. The only function availabe for iOS is `getCurrentSSID`.
 
@@ -18,13 +18,13 @@ iOS has limited functionality, as Apple's WifiManager equivalent is only availab
 
 #### Master
 
-Run `phonegap plugin install https://github.com/parsonsmatt/WifiWizard.git`. Please note that the plugin is in active development, and this will pull the most recent commits.
+Run `cordova plugin add https://github.com/adnotam/WifiWizard.git`. Please note that the plugin is in active development, and this will pull the most recent commits.
 
 #### Releases
 
-Run `cordova plugin add wifiwizard`. This will get the latest release of the plugin.
+Run `cordova plugin add cordova-plugin-wifi-wizard`. This will get the latest release of the plugin.
 
-### Usage from within Cordova/Phonegap:
+### Usage from within Cordova:
 
 #### `WifiWizard.formatWifiConfig(SSID, password, algorithm);` 
 
